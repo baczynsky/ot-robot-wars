@@ -1,5 +1,15 @@
 # 'Robot Wars' - OpenTable UK Engineering code test
 
+## Few words from author
+1. I manged to complete the exercise so the whole logic is there but it's not perfect - I could use extra hour to improve few parts
+2. If I had more time I would:
+   - add some tests against CommandValidator - it contains few regular expressions and it's worth testing,
+   - update few other tests since the logic evolved a bit since the beginning but still decided to leave all tests anyway since they are testing what needs to be tested,
+   - add some integrations tests - unit tests are great and they really helped with the whole implementation when using TDD at the beginning but would be great to run some e2e tests as well,
+   - replace some hardcoded values (like directions, commands etc.) to use constants since it can became messy when one of the command is changed
+3. App is docerized so the easiest way to run it is just to build the image and run it in interactive mode
+4. I made a mistake when creating the project so instead of RobotWars everything is called RoboWars - I didn't have time to rename all parts
+
 ## Requirements
 A fleet of hand built robots are due to engage in battle for the annual “Robot Wars” competition. Each robot will
 be placed within a rectangular battle arena and will navigate their way around the arena using a built in
